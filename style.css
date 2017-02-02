@@ -1,50 +1,49 @@
-table
-{
-	border-collapse: collapse;
-	border: none;
+table {
+    border-collapse: collapse;
+    border: none;
 }
-td
-{
-	width: 17px;
-	height: 17px;
-	border: 1px solid #aaa;
-	background-color: #eee;
-	background-attachment: scroll;
-	background-repeat: no-repeat;
-	background-position: 17px 17px;
-	background-image: url('xo.png');
-	cursor: default;
+
+td {
+    width: 17px;
+    height: 17px;
+    border: 1px solid #aaa;
+    background-color: #eee;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: 17px 17px;
+    background-image: url('xo.png');
+    cursor: default;
 }
-.move
-{
-	cursor: pointer;
-	background-color: #fff;
+
+.move {
+    cursor: pointer;
+    background-color: #fff;
 }
-.last
-{
-	background-color: #ff3;
+
+.last {
+    background-color: #ff3;
 }
-.x-gray
-{
-	background-position: 0px 0px;
+
+.x-gray {
+    background-position: 0px 0px;
 }
-.o-gray
-{
-	background-position: -17px 0px;
+
+.o-gray {
+    background-position: -17px 0px;
 }
-.x-green
-{
-	background-position: 0px -17px;
+
+.x-green {
+    background-position: 0px -17px;
 }
-.o-green
-{
-	background-position: -17px -17px;
+
+.o-green {
+    background-position: -17px -17px;
 }
-.x-red
-{
-	background-position: 0px -34px;
+
+.x-red {
+    background-position: 0px -34px;
 }
-.o-red
-{
-	background-position: -17px -34px;
+
+.o-red {
+    background-position: -17px -34px;
 }
